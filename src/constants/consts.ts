@@ -355,3 +355,69 @@ export const testimonials = [
     description: "Fixed the glitch and made the site easier to use.",
   },
 ];
+
+import Work1 from "../assets/work1.jpg";
+import Work2 from "../assets/work2.jpg";
+import Work3 from "../assets/work3.jpg";
+import Work4 from "../assets/work4.jpg";
+import Work5 from "../assets/work5.jpg";
+export const projectsData = [
+  {
+    id: 1,
+    img: Work1,
+    category: 'Branding',
+    title: 'Zorro',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+  },
+  {
+    id: 2,
+    img: Work2,
+    category: 'UI UX Design',
+    title: 'Gooir',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+  },
+  {
+    id: 3,
+    img: Work3,
+    category: 'Development',
+    title: 'Explore',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+  },
+  {
+    id: 4,
+    img: Work4,
+    category: 'Photography',
+    title: 'Mozar',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+  },
+  {
+    id: 5,
+    img: Work5,
+    category: 'Development',
+    title: 'Stay Fit',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+  },
+];
+
+export const projectsNav = [
+  {
+    name: 'All',
+  },
+  {
+    name: 'Development',
+  },
+  {
+    name: 'Photography',
+  },
+  {
+    name: 'UI UX Design',
+  },
+  {
+    name: 'Branding',
+  }
+];
