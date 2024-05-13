@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import { contactCards, emailJS } from "../../constants/consts";
 
 const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -9,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_0mr5qm9",
-      "template_tzu970m",
+      emailJS.servicesID,
+      emailJS.templateID,
       form.current || "",
-      "2Y0kTqN3xZVEKU58J"
+      emailJS.publicKey
     );
     e.target.reset();
   };
@@ -27,47 +28,21 @@ const Contact = () => {
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
-            <div className="contact__card">
-              <i className="bx bx-mail-send contact__card-icon"></i>
-              <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">cyphrsylph@gmail.com</span>
+            {contactCards.map((card) => (
+              <div className="contact__card" key={card.id}>
+                <i className={`bx ${card.img} contact__card-icon`}></i>
+                <h3 className="contact__card-title">{card.title}</h3>
+                <span className="contact__card-data">{card.data}</span>
 
-              <a
-                href="mailto:cyphersylph@gmail.com"
-                className="contact__button"
-              >
-                Write Me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">037-338-5547</span>
-
-              <a
-                href="mailto:cyphersylph@gmail.com"
-                className="contact__button"
-              >
-                Write Me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-
-            <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">ha.anhkiet.96</span>
-
-              <a
-                href="mailto:cyphersylph@gmail.com"
-                className="contact__button"
-              >
-                Write Me
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
+                <a
+                  href="mailto:cyphersylph@gmail.com"
+                  className="contact__button"
+                >
+                  Write Me
+                  <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
 

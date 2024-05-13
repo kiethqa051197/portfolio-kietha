@@ -15,14 +15,22 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
-          John
+        <a href="#" className="nav__logo">
+          Kiet Ha
         </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {navMenu.map((item) => (
               <li key={item.id} className="nav__item">
-                <a href={item.url} onClick={() => setActiveNav(item.url)} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
+                <a
+                  href={item.url}
+                  onClick={() => setActiveNav(item.url)}
+                  className={
+                    activeNav === "#home"
+                      ? "nav__link active-link"
+                      : "nav__link"
+                  }
+                >
                   <i className={`uil ${item.img} nav__icon`}></i>
                   {" " + item.title}
                 </a>
@@ -30,7 +38,10 @@ const Header = () => {
             ))}
           </ul>
 
-          <i className="uil uil-times nav__close" onClick={() => showMenu(!Toggle)}></i>
+          <i
+            className="uil uil-times nav__close"
+            onClick={() => showMenu(!Toggle)}
+          ></i>
         </div>
 
         <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>

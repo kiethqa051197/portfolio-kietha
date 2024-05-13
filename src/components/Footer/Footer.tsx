@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { footerSocial } from "../../constants/consts";
 
 const Footer = () => {
   return (
@@ -23,32 +24,21 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-          <a
-            href="https://twitter.com/cyphrsylph"
-            className="home__social-icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="bx bxl-twitter"></i>
-          </a>
-          <a
-            href="https://www.github.com/kmaalig"
-            className="home__social-icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="bx bxl-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/kmaalig/"
-            className="home__social-icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="bx bxl-linkedin"></i>
-          </a>
+          {footerSocial.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              className="home__social-icon"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className={`bx ${item.img}`}></i>
+            </a>
+          ))}
         </div>
-        <span className="footer__copy">© 2024 All Rights Reserved</span>
+        <span className="footer__copy">
+          © {new Date().getFullYear()} All rights reserved.
+        </span>
       </div>
     </footer>
   );

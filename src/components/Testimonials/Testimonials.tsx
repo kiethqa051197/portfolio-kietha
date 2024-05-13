@@ -7,7 +7,7 @@ import { Pagination } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container section">
+    <section className="testimonial container section" id="testimonials">
       <h2 className="section__title">Client Feedback</h2>
       <span className="section__subtitle">Testimonial</span>
       <Swiper

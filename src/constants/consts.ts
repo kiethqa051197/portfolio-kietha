@@ -26,8 +26,8 @@ export const navMenu = [
   {
     id: "4",
     img: "uil-scenery",
-    url: "#porfolio",
-    title: "Porfolio",
+    url: "#portfolio",
+    title: "Portfolio",
   },
   {
     id: "5",
@@ -45,13 +45,13 @@ export const socials = [
   },
   {
     id: "1",
-    img: "uil-dribbble",
-    url: "https://dribbble.com/",
+    img: "uil-facebook-f",
+    url: "https://www.facebook.com/ha.anhkiet.96",
   },
   {
     id: "2",
     img: "uil-github-alt",
-    url: "https://github.com/",
+    url: "https://github.com/kiethqa051197",
   },
 ];
 
@@ -60,13 +60,13 @@ export const aboutInfos = [
     id: "0",
     img: "bx-award",
     title: "Experience",
-    subtitle: "3 Years",
+    subtitle: "4 Years",
   },
   {
     id: "1",
     img: "bx-briefcase-alt",
     title: "Completed",
-    subtitle: "35+ Projects",
+    subtitle: "20+ Projects",
   },
   {
     id: "2",
@@ -365,59 +365,104 @@ export const projectsData = [
   {
     id: 1,
     img: Work1,
-    category: 'Branding',
-    title: 'Zorro',
+    category: "Branding",
+    title: "Zorro",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 2,
     img: Work2,
-    category: 'UI UX Design',
-    title: 'Gooir',
+    category: "UI UX Design",
+    title: "Gooir",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 3,
     img: Work3,
-    category: 'Development',
-    title: 'Explore',
+    category: "Development",
+    title: "Explore",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 4,
     img: Work4,
-    category: 'Photography',
-    title: 'Mozar',
+    category: "Photography",
+    title: "Mozar",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 5,
     img: Work5,
-    category: 'Development',
-    title: 'Stay Fit',
+    category: "Development",
+    title: "Stay Fit",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
 ];
 
 export const projectsNav = [
   {
-    name: 'All',
+    name: "All",
   },
   {
-    name: 'Development',
+    name: "Development",
   },
   {
-    name: 'Photography',
+    name: "Photography",
   },
   {
-    name: 'UI UX Design',
+    name: "UI UX Design",
   },
   {
-    name: 'Branding',
-  }
+    name: "Branding",
+  },
 ];
+
+export const footerSocial = [
+  {
+    id: "0",
+    img: "bxl-facebook-circle",
+    url: "https://www.facebook.com/ha.anhkiet.96",
+  },
+  {
+    id: "1",
+    img: "bxl-github",
+    url: "https://github.com/kiethqa051197",
+  },
+  {
+    id: "2",
+    img: "bxl-instagram-alt",
+    url: "https://www.instagram.com/",
+  },
+];
+
+export const contactCards = [
+  {
+    id: "0",
+    img: "bx-mail-send",
+    title: "Email",
+    data: "kiethqa051197@gmail.com",
+  },
+  {
+    id: "1",
+    img: "bxl-skype",
+    title: "Skype",
+    data: "live:anhkietxl051197",
+  },
+  {
+    id: "2",
+    img: "bxl-messenger",
+    title: "Messenger",
+    data: "ha.anhkiet.96",
+  },
+];
+
+export const emailJS = {
+  servicesID: "service_0mr5qm9",
+  templateID: "template_tzu970m",
+  publicKey: "2Y0kTqN3xZVEKU58J",
+};
