@@ -139,8 +139,8 @@ export const skills = [
       {
         id: "1",
         img: "bx-award",
-        name: "SpringBoot",
-        level: "Basic",
+        name: ".NET core",
+        level: "Intermediate",
         group: "1",
       },
       {
@@ -153,7 +153,7 @@ export const skills = [
       {
         id: "3",
         img: "bx-award",
-        name: "C#",
+        name: "C#, VB",
         level: "Intermediate",
         group: "2",
       },
@@ -280,21 +280,15 @@ export const qualifications = [
     detail: [
       {
         id: "0",
-        title: "Design",
-        subtitle: "The Art Institute",
-        calendar: "2016-2018",
+        title: "Software Engineering",
+        subtitle: "HCMC University of Technology and Education",
+        calendar: "2015-2020",
       },
       {
         id: "1",
-        title: "Web Development",
-        subtitle: "Full Sail University",
-        calendar: "2018-2021",
-      },
-      {
-        id: "2",
-        title: "UI/UX Design",
-        subtitle: "UX Academy",
-        calendar: "2021-2022",
+        title: "Agile Scrum",
+        subtitle: "Axon Active - Agile Software Development Company",
+        calendar: "2018-2022",
       },
     ],
   },
@@ -306,27 +300,21 @@ export const qualifications = [
     detail: [
       {
         id: "0",
-        title: "Tech Support",
-        subtitle: "PC Outlet",
-        calendar: "2012-2015",
+        title: "Internship",
+        subtitle: "ISC Quang Trung",
+        calendar: "06/2019 - 09/2019",
       },
       {
         id: "1",
         title: "Junior Developer",
-        subtitle: "Discord",
-        calendar: "2015-2016",
-      },
-      {
-        id: "2",
-        title: "UX Designer",
-        subtitle: "Apple Inc",
-        calendar: "2016-2022",
+        subtitle: "HTL Information Technologies JSC",
+        calendar: "2020-2022",
       },
       {
         id: "3",
         title: "Senior Developer",
-        subtitle: "Freelance - Remote",
-        calendar: "2019-Present",
+        subtitle: "TMA Solutions",
+        calendar: "2022-Present",
       },
     ],
   },
@@ -356,25 +344,16 @@ export const testimonials = [
   },
 ];
 
-import Work1 from "../assets/work1.jpg";
 import Work2 from "../assets/work2.jpg";
 import Work3 from "../assets/work3.jpg";
 import Work4 from "../assets/work4.jpg";
 import Work5 from "../assets/work5.jpg";
 export const projectsData = [
   {
-    id: 1,
-    img: Work1,
-    category: "Branding",
-    title: "Zorro",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  },
-  {
     id: 2,
     img: Work2,
     category: "UI UX Design",
-    title: "Gooir",
+    title: "Flavour solutions",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
@@ -416,9 +395,6 @@ export const projectsNav = [
   },
   {
     name: "UI UX Design",
-  },
-  {
-    name: "Branding",
   },
 ];
 
