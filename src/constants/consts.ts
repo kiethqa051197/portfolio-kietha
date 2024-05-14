@@ -344,14 +344,23 @@ export const testimonials = [
   },
 ];
 
-import Work2 from "../assets/work2.jpg";
-import Work3 from "../assets/work3.jpg";
-import Work4 from "../assets/work4.jpg";
-import Work5 from "../assets/work5.jpg";
+import Work1 from "../assets/work1.png";
+import Work2 from "../assets/work2.png";
+import Work3 from "../assets/work3.png";
+import Work4 from "../assets/work4.png";
 export const projectsData = [
   {
-    id: 2,
+    id: 1,
     img: Work2,
+    category: "Development",
+    title: "Healthcare website",
+    url: "https://www.suckhoevang.vn/",
+    description:
+      "The project is to build a website introducing the Healthcare products and an administration site to manage the content such as Health Care products, News, SEO, and Ecosystem.",
+  },
+  {
+    id: 2,
+    img: Work3,
     category: "UI UX Design",
     title: "Flavour solutions",
     url: "https://www.figma.com/file/7u5qYO4Wp5RFSH3hc2V2A0/New-web?type=design&node-id=325-2&mode=design",
@@ -360,7 +369,16 @@ export const projectsData = [
   },
   {
     id: 3,
-    img: Work3,
+    img: Work1,
+    category: "Development",
+    title: "TMA Solutions Website", 
+    url: "https://www.tmasolutions.com/",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+  },
+  {
+    id: 4,
+    img: Work4,
     category: "Development",
     title: "Birthday cake",
     url: "https://birthday-cake-2fabd.web.app/",
@@ -368,31 +386,13 @@ export const projectsData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
-    id: 4,
-    img: Work4,
-    category: "Development",
-    title: "Healthcare website",
-    url: "https://www.suckhoevang.vn/",
-    description:
-      "The project is to build a website introducing the Healthcare products and an administration site to manage the content such as Health Care products, News, SEO, and Ecosystem.",
-  },
-  {
-    id: 4,
-    img: Work4,
+    id: 5,
+    img: Work1,
     category: "Development",
     title: "Australia/Eroupe website",
     url: "https://www.tmasolutions.com.au/",
     description:
       "The project is to build a website introducing the company to ANZ and Europe market and an administration site to manage its content",
-  },
-  {
-    id: 5,
-    img: Work5,
-    category: "Development",
-    title: "Portfolio website",
-    url: "https://portfolio-kiethqa.web.app/",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
 ];
 
