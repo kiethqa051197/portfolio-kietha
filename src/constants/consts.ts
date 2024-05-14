@@ -354,6 +354,7 @@ export const projectsData = [
     img: Work2,
     category: "UI UX Design",
     title: "Flavour solutions",
+    url: "https://www.figma.com/file/7u5qYO4Wp5RFSH3hc2V2A0/New-web?type=design&node-id=325-2&mode=design",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
@@ -361,23 +362,35 @@ export const projectsData = [
     id: 3,
     img: Work3,
     category: "Development",
-    title: "Explore",
+    title: "Birthday cake",
+    url: "https://birthday-cake-2fabd.web.app/",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
   {
     id: 4,
     img: Work4,
-    category: "Photography",
-    title: "Mozar",
+    category: "Development",
+    title: "Healthcare website",
+    url: "https://www.suckhoevang.vn/",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "The project is to build a website introducing the Healthcare products and an administration site to manage the content such as Health Care products, News, SEO, and Ecosystem.",
+  },
+  {
+    id: 4,
+    img: Work4,
+    category: "Development",
+    title: "Australia/Eroupe website",
+    url: "https://www.tmasolutions.com.au/",
+    description:
+      "The project is to build a website introducing the company to ANZ and Europe market and an administration site to manage its content",
   },
   {
     id: 5,
     img: Work5,
     category: "Development",
-    title: "Stay Fit",
+    title: "Portfolio website",
+    url: "https://portfolio-kiethqa.web.app/",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   },
@@ -389,9 +402,6 @@ export const projectsNav = [
   },
   {
     name: "Development",
-  },
-  {
-    name: "Photography",
   },
   {
     name: "UI UX Design",
